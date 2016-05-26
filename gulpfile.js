@@ -1,4 +1,5 @@
 var gulp        = require("gulp"),
+    notify      = require('gulp-notify'),
     connect     = require('gulp-connect'),
     concat      = require('gulp-concat');
 
@@ -17,7 +18,12 @@ gulp.task('connect', function() {
 });
 
 gulp.task('watch', function () {
-    gulp.watch( watchList, ['compileCss', 'compileJs', 'list']);
+    gulp
+        .watch( watchList, ['compileCss', 'compileJs', 'list'])
+        .on('error', notify.onError({
+            title: 'watch problem:',
+            message: "<%= error %>"
+        }));
 });
 
 
