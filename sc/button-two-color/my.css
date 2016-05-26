@@ -1,0 +1,9 @@
+.sc-button {
+    background-image: linear-gradient(#abcdef, #ffffff);
+    background-size: auto 200%;
+    background-position: 0 100%;
+    transition: background-position 0.5s;
+}    
+.sc-button:hover {
+    background-position: 0 0;
+}

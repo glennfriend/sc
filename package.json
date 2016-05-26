@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "gulp":             "^3.9.*",
+    "gulp-connect":     "^4.0.*",
+    "gulp-concat":      "^2.6.*",
+    "gulp-notify":      "^2.2.*"
+  }
+}
