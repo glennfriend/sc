@@ -4,3 +4,18 @@ suepr common CSS
 
 ###其它補助工具
 - https://jsfiddle.net/
+
+###Install
+```sh
+npm i
+```
+
+###Run
+```sh
+gulp
+```
+
+###Add/Update example list
+```sh
+php build-list.php
+```
