@@ -3,5 +3,9 @@ http://htmlpreview.github.io/?https://github.com/glennfriend/sc/blob/master/sc/t
 
 ###Description
 - 用文字的方式展示 loading ... 動態的效果
-- <div class="sc-loading">loading</div>
+
+```html
+<div class="sc-loading">loading</div>
+```
+
 

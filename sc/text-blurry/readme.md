@@ -3,5 +3,8 @@ http://htmlpreview.github.io/?https://github.com/glennfriend/sc/blob/master/sc/t
 
 ###Description
 - 讓文字變糢糊 sc-text-blurry
-- <div class="sc-text-blurry"></div>
+
+```html
+<div class="sc-text-blurry"></div>
+```
 
