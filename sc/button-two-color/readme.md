@@ -4,5 +4,7 @@ http://htmlpreview.github.io/?https://github.com/glennfriend/sc/blob/master/sc/b
 ###Description
 - 讓 button 有漸層的效果
 - button hover 也有視覺效果
-- <input class="sc-button-color2" type="button" value="hello world">
 
+```html
+<input class="sc-button-color2" type="button" value="hello world">
+```
