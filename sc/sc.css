@@ -3,7 +3,7 @@
     background-size: auto 200%;
     background-position: 0 100%;
     transition: background-position 0.5s;
-}    
+}
 .sc-button-color2:hover {
     background-position: 0 0;
 }
@@ -14,8 +14,13 @@
     box-shadow:1px 1px 5px #333; /* Standard blur at 5px. Increase for more depth */
     -webkit-box-shadow:1px 1px 5px #333;
     -moz-box-shadow:1px 1px 5px #333;
-}                                
+}
 
+.sc-show-content-main {
+}
+.sc-show-content-sub {
+    display:none;
+}
 .sc-text-blurry {
    color: transparent;
    text-shadow: 0 0 5px rgba(0,0,0,0.5);

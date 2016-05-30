@@ -1,5 +1,4 @@
 
-
 function sc_show_content_init()
 {
     var debug = true;

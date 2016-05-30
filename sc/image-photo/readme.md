@@ -1,11 +1,11 @@
 ###Demo
-http://htmlpreview.github.io/?https://github.com/glennfriend/sc/blob/master/sc/text-loading/index.html
+http://htmlpreview.github.io/?https://github.com/glennfriend/sc/blob/master/sc/image-photo/index.html
 
 ###Description
-- 用文字的方式展示 loading ... 動態的效果
+- 為圖片上框
 
 ```html
-<div class="sc-loading">loading</div>
+<img class="sc-image-photo" src="/photo.jpg">
 ```
 
 
