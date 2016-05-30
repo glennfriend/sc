@@ -14,5 +14,7 @@
 ```
 
 ```js
-sc_show_content_init();
+<script>
+    sc_show_content_init();
+</script>
 ```

@@ -18,6 +18,8 @@ http://htmlpreview.github.io/?https://github.com/glennfriend/sc/blob/master/sc/s
 ```
 
 ```js
-sc_show_content_init();
+<script>
+    sc_show_content_init();
+</script>
 ```
 
