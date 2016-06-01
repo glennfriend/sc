@@ -50,11 +50,29 @@ gulp.task('list', function () {
         .pipe(connect.reload());
 });
 
+gulp.task('buildMainCss', function () {
+    return gulp.src([
+            './sc/_dist/jquery/jquery.min.js',
+            './sc/_dist/highlight.js/highlight.pack.js',
+            './sc/_dist/clipboard/clipboard.min.js',
+            './sc/_dist/init.js',
+        ])
+        .pipe(concat('main.js'))
+        .pipe(gulp.dest("sc"));
+});
+gulp.task('buildMainJs', function () {
+    return gulp.src([
+            './sc/_dist/highlight.js/styles/ir_black.css',
+        ])
+        .pipe(concat('main.css'))
+        .pipe(gulp.dest("sc"));
+});
+
 
 // --------------------------------------------------------------------------------
 gulp.task('default', function() {
     console.log('---- start ----');
-    gulp.run('connect', 'watch', 'compileCss', 'compileJs');
+    gulp.run('connect', 'watch', 'compileCss', 'compileJs', 'buildMainCss', 'buildMainJs');
 });
 
 
