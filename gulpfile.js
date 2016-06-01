@@ -5,8 +5,8 @@ var gulp        = require("gulp"),
 
 var watchList = [
     'sc/**/index.html',
-    'sc/**/*.css',
-    'sc/**/*.js',
+    'sc/**/my.css',
+    'sc/**/my.js',
 ];
 
 // listen
