@@ -1,5 +1,0 @@
-- 用文字的方式展示 loading ... 動態的效果
-
-```html
-<div class="sc-loading">loading</div>
-```

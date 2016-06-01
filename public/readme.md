@@ -1,0 +1,2 @@
+- http://htmlpreview.github.io/?https://github.com/glennfriend/sc/blob/master/public/index.html
+- http://glennfriend.github.io/sc/public/

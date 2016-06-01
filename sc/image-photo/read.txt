@@ -1,5 +1,0 @@
-- 為圖片上框
-
-```html
-<img class="sc-image-photo" src="/photo.jpg">
-```
