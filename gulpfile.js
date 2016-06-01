@@ -4,7 +4,7 @@ var gulp        = require("gulp"),
     concat      = require('gulp-concat');
 
 var watchList = [
-    'public/index.html',
+    'public/*.html',
     'public/src/**/my.js',
     'public/src/**/my.css',
 ];
@@ -67,6 +67,7 @@ gulp.task('buildMainCss', function () {
 gulp.task('buildMainJs', function () {
     return gulp.src([
             './public/dist/highlight.js/styles/ir_black.css',
+            './public/dist/init.css',
         ])
         .pipe(concat('main.css'))
         .pipe(gulp.dest("public"));

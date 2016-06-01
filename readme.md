@@ -20,8 +20,3 @@ npm i
 ```sh
 gulp
 ```
-
-###Add/Update example list
-```sh
-php build-list.php
-```
