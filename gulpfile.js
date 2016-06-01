@@ -50,6 +50,10 @@ gulp.task('list', function () {
         .pipe(connect.reload());
 });
 
+/**
+ *  compile 展示網頁的 js & css
+ *  只有第一次下 gulp 的時候會做
+ */
 gulp.task('buildMainCss', function () {
     return gulp.src([
             './public/dist/jquery/jquery.min.js',
